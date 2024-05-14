@@ -1,0 +1,1 @@
+<template>article channel</template>

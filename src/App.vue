@@ -6,6 +6,8 @@ console.log(userStore)
 </script>
 
 <template>
+  <router-view />
+
   <div>app</div>
   <el-button @click="$router.push('/home')">home</el-button>
   <el-button @click="$router.push('/list')">list</el-button>
