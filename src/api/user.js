@@ -12,3 +12,7 @@ export const userLoginService = ({ username, password }) =>
     username,
     password
   })
+
+export const userGetInfoService = () => {
+  return request.get('/my/userinfo')
+}
